@@ -2,8 +2,8 @@
 import { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Poppins } from 'next/font/google';
+import 'aos/dist/aos.css';
 import './globals.css';
-import { title } from 'process';
 
 const poppins =Poppins({
   weight: ['400', '600', '700'],
