@@ -1,0 +1,76 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+:root {
+  --primary-orange: #ff471a;
+  --light-grey: #f8f9fa;
+  --dark-text: #212529;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--dark-text);
+}
+
+.text-orange {
+  color: var(--primary-orange);
+}
+
+.bg-orange {
+  background-color: var(--primary-orange);
+}
+
+.btn-orange {
+  background-color: var(--primary-orange);
+  color: white;
+  border-radius: 5px;
+  padding: 10px 24px;
+  font-weight: 600;
+  border: none;
+  text-decoration: none;
+}
+.btn-orange:hover {
+  background-color: #e03d15;
+  color: white;
+}
+
+.hero-section {
+  background-image: url("/images/hero-bg.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 600px; 
+}
+
+.extra-small {
+  font-size: .85rem;
+}
+
+.num{
+  font-size: 4rem;
+}
+
+
+.card {
+  transition: transform 0.3s ease-in-out box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+
+/*faq*/
+.faq-item .border {
+  border: 1px dashed #dee2e6 !important;
+  background-color: #fff;
+}
+.text-orange {
+  color: #ff471a;
+}
+
