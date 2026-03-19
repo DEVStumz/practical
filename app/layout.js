@@ -1,3 +1,14 @@
+export const metadata = {
+  title: 'AAVORide | Safe & Secure Ride Sharing',
+  description: 'Experience the best ride-sharing service with AAVORide. Fast, secure, and affordable transportation at your fingertips.',
+  keywords: 'ride sharing, transportation, safe travel, AAVORide, taxi service',
+  openGraph: {
+    title: 'AAVORide',
+    description: 'Safe and secure rides for everyone.',
+    images: ['/images/hero-bg.jpg'], // This shows up when you share the link!
+  },
+};
+
 'use client';
 import { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
