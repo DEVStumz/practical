@@ -108,7 +108,7 @@ export default function Home() {
       </section>
 
       {/* 3. How its work*/}
-      <section className="py-5 bg-light mt-5">
+      <section className="py-5 mt-5" style={{ backgroundColor: '#efe8e4'}}>
         <div className="container text-center">
           <h2 className="text-orange fw-bold mb-5" data-aos="fade-up">How its work</h2>
           <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3">
@@ -116,24 +116,24 @@ export default function Home() {
             <div className="col-md-4">
               <div className="p-4">
                 <div className="num display-1 fw-bold opacity-10 mb-3" data-aos="zoom-in" style={{ color: '#ff471a'}}>1</div>
-                <h4 className="fw-semibold my-3 text-left" data-aos="fade-up">Search & Choose Your Ride</h4>
-                <p className="text-muted text-left" data-aos-delay="200">Enter your pickup and drop location, travel date, and select the perfect cab for your journey.</p>
+                <h4 className="fw-semibold my-3 text-left" data-aos="fade-up" style={{ textAlign: 'left', fontSize: '1.2rem', fontWeight: 'bold'}}>Search & Choose Your Ride</h4>
+                <p className="text-muted text-left" data-aos-delay="200" style={{ textAlign: 'left'}}>Enter your pickup and drop location, travel date, and select the perfect cab for your journey.</p>
               </div>
             </div>
 
             <div className="col-md-4">
               <div className="p-4">
                 <div className="num display-1 fw-bold opacity-10 mb-3" data-aos="zoom-in" style={{ color: '#ff471a'}}>2</div>
-                <h4 className="fw-semibold my-3 text-left" data-aos="fade-up">Confirm Your Booking</h4>
-                <p className="text-muted text-left" data-aos-delay="200">Check fare details, choose your preferred vihicle, and confirm your booking instantly with transparent pricing.</p>
+                <h4 className="fw-semibold my-3 text-left" data-aos="fade-up" style={{ textAlign: 'left', fontSize: '1.2rem', fontWeight: 'bold'}}>Confirm Your Booking</h4>
+                <p className="text-muted text-left" data-aos-delay="200" style={{ textAlign: 'left'}}>Check fare details, choose your preferred vihicle, and confirm your booking instantly with transparent pricing.</p>
               </div>
             </div>
 
             <div className="col-md-4">
               <div className="p-4">
                 <div className="num display-1 fw-bold opacity-10 mb-3" data-aos="zoom-in" style={{ color: '#ff471a'}}>3</div>
-                <h4 className="fw-semibold my-3 text-left" data-aos="fade-up">Sit Back & Enjoy the Ride</h4>
-                <p className="text-muted text-left" data-aos-delay="200">Your professional driver will arrive at your pickup location and take you safely to your destination.</p>
+                <h4 className="fw-semibold my-3 text-left" data-aos="fade-up" style={{ textAlign: 'left',  fontSize: '1.2rem', fontWeight: 'bold'}}>Sit Back & Enjoy the Ride</h4>
+                <p className="text-muted text-left" data-aos-delay="200" style={{ textAlign: 'left'}}>Your professional driver will arrive at your pickup location and take you safely to your destination.</p>
               </div>
             </div>
 
@@ -191,7 +191,7 @@ export default function Home() {
           </h2>
           
           <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-3 col-md-3">
               <div className="card p-4 border-0 shadow-sm rounded h-100" data-aos="fade-up" style={{ backgroundColor: '#f8f9fa', }}>
                 <div className="mb-3">
                   <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-person-check" viewBox="0 0 16 16">
@@ -206,7 +206,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-3 col-md-3">
               <div className="card p-4 border-0 shadow-sm rounded h-100" data-aos="fade-up" style={{ backgroundColor: '#f8f9fa' }}>
                 <div className="mb-3">
                   <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-briefcase" viewBox="0 0 16 16">
@@ -220,7 +220,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-3 col-md-3">
               <div className="card p-4 border-0 shadow-sm rounded h-100" data-aos="fade-up" style={{ backgroundColor: '#f8f9fa' }}>
                 <div className="mb-3">
                   <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-cash-stack" viewBox="0 0 16 16">
@@ -242,7 +242,7 @@ export default function Home() {
       <section className="py-5 bg-light">
         <div className="container">
           <h2 className="fw-bold text-center mb-5" data-aos="fade-up" style={{ color: '#ff471a'}}>Choose Your Ride</h2>
-          <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+          <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
             <div className="col-md-3">
               <div className="card border-0 shadow-sm h-100 text-left" data-aos="fade-up">
                 <img src="/images/hatchback.jpg" alt="Hatchback" className="img-fluid mb-3 hover:scale-110 transition duration-700 rounded-1"/>
@@ -397,7 +397,7 @@ export default function Home() {
             
             <div className="col-md-6">
               <div className="ps-md-5" >
-                <h2 className="fw-bold mb-4" data-aos="fade-up">Safe, Secure & Reliable Rides</h2>
+                <h2 className="fw-bold mb-4 mt-4" data-aos="fade-up">Safe, Secure & Reliable Rides</h2>
                 <p className="text-muted" data-aos="fade-left">At Aavoride, passenger safety is our top priority. From well-maintained vehicles to real-time tracking.</p>
                 <ul className=" mb-4" data-aos="fade-left">
                   <li> Fully sanitized cars</li>
